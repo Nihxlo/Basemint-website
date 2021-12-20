@@ -1,7 +1,7 @@
 @font-face {
   font-family: Kodchasan;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 4000;
   src: url("media/Kodchasan-Regular.ttf");
 }
 
@@ -28,7 +28,7 @@ main {
 }
 
 body {
-  background-color: hsl(206, 9%, 15%);
+  background-color: hsl(210, 5%, 8%);
   overflow-y: hidden;
 }
 
@@ -161,6 +161,12 @@ body {
   font-size: 2.5em;
 }
 
+.sect .logo {
+  font-family: Kodchasan, Arial;
+  color: var(--theme-color);
+  font-size: 6em;
+}
+
 .sect .content {
   position: relative;
   font-family: Kodchasan, Arial;
@@ -208,6 +214,43 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+
+.avatar_team {
+  vertical-align: middle;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.title_team {
+  font-family: Kodchasan, Arial;
+  color: var(--theme-color);
+  font-size: 4em;
+  margin-bottom: 100px;
+}
+
+.text_align {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.pfp {
+  text-align: center;
+  width: 150px;
+  margin: 80px;
+}
+
+.pfp img {
+  display: block;
+  margin: 0 auto;
 }
 
 .home img {
