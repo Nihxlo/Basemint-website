@@ -28,8 +28,12 @@ main {
 }
 
 body {
+  background-image: url("media/black_dots_background.jpg");
   background-color: hsl(210, 5%, 8%);
   overflow-y: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header,
